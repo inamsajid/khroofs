@@ -1,0 +1,1835 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K.H. Roofing Contractors | Manchester & North West Specialists</title>
+  <meta name="description"
+    content="K.H. Roofing Contractors: Local family-run roofing specialists across Manchester, Rochdale & Cheshire. Minor repairs from £50, slate & tile re-roofing, flat roofs, and 15-year guarantees. Call 07522 613 823 for 24/7 emergency service.">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><polygon points='16,2 30,16 26,16 26,30 6,30 6,16 2,16' fill='%23FFC917'/><polygon points='16,8 24,16 22,16 22,26 10,26 10,16 8,16' fill='%230B0F17'/></svg>">
+
+  <!-- Tailwind CSS via CDN with Custom Config -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#5EAFFC',
+              'gold-hover': '#235B6A',
+              'gold-light': '#FEF9C3',
+              charcoal: '#181E29',
+              'charcoal-orig': '#242222',
+              'slate-dark': '#0B0F17',
+              'slate-card': '#141B26',
+              'slate-border': '#242E3D',
+              blue: '#0284C7'
+            }
+          },
+          fontFamily: {
+            heading: ['"Plus Jakarta Sans"', 'sans-serif'],
+            sans: ['"Inter"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="bg-slate-50 text-slate-900 antialiased selection:bg-brand-gold selection:text-slate-950">
+
+  <!-- =========================================================================
+       1. TOP EMERGENCY & ANNOUNCEMENT BAR
+       ========================================================================= -->
+  <div class="bg-slate-100 text-slate-700 text-xs sm:text-sm border-b border-slate-200/80 py-2 px-4 transition-all">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+      <!-- Left side badges -->
+      <div class="flex items-center flex-wrap justify-center gap-4 text-xs font-medium">
+        <span class="inline-flex items-center gap-1.5 text-[#000] font-bold">
+          <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+          24/7 Emergency Line Active
+        </span>
+        <span class="hidden sm:inline text-slate-300">•</span>
+        <span class="text-slate-700 flex items-center gap-1 font-medium">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-amber-600"></i>
+          15-Year Workmanship Guarantee
+        </span>
+        <span class="hidden md:inline text-slate-300">•</span>
+        <span class="hidden md:inline text-slate-600">
+          No Call-Out Charge • Minor Repairs From £50
+        </span>
+      </div>
+
+      <!-- Right side quick contact numbers -->
+      <div class="flex items-center gap-4 text-xs">
+        <a href="tel:+447522613823"
+          class="text-slate-900 hover:text-sky-600 font-bold transition flex items-center gap-1.5">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 text-sky-600"></i>
+          Emergency: 07522 613 823
+        </a>
+        <span class="text-slate-300 hidden lg:inline">|</span>
+        <span class="text-slate-600 hidden lg:flex items-center gap-1">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-amber-600"></i>
+          Manchester • Rochdale • Cheshire
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       2. HEADER & NAVIGATION
+       ========================================================================= -->
+  <header id="mainHeader"
+    class="sticky top-0 z-50 transition-all duration-300 glass-header border-b border-slate-200/80 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3 group py-1" aria-label="K.H. Roofing Home">
+        <img src="assets/images/khroof.png" alt="K.H. Roofing Contractors Ltd"
+          class="h-12 sm:h-14 w-auto object-contain transition-transform group-hover:scale-[1.02]">
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden lg:flex items-center gap-7">
+        <a href="#home" class="text-sm font-semibold text-slate-900 hover:text-sky-600 transition">Home</a>
+        <a href="#who-we-are" class="text-sm font-medium text-slate-600 hover:text-sky-600 transition">Who We Are</a>
+        <a href="#services" class="text-sm font-medium text-slate-600 hover:text-sky-600 transition">What We Do</a>
+        <a href="#projects" class="text-sm font-medium text-slate-600 hover:text-sky-600 transition">Our Projects</a>
+        <a href="#testimonials"
+          class="text-sm font-medium text-slate-600 hover:text-sky-600 transition">Testimonials</a>
+        <a href="#areas" class="text-sm font-medium text-slate-600 hover:text-sky-600 transition">Areas Covered</a>
+        <a href="#contact" class="text-sm font-medium text-slate-600 hover:text-sky-600 transition">Contact</a>
+      </nav>
+
+      <!-- Desktop Action CTAs -->
+      <div class="hidden sm:flex items-center gap-3">
+        <!-- Direct Call -->
+        <a href="tel:+441618257408"
+          class="hidden md:flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold text-slate-800 border border-slate-300 hover:border-sky-500 hover:text-sky-600 hover:bg-slate-50 transition">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-sky-600"></i>
+          <span>0161 825 7408</span>
+        </a>
+
+        <!-- Get Free Quote Button -->
+        <a href="#get-quote"
+          class="btn-primary inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-xs sm:text-sm font-bold tracking-tight shadow-sm">
+          <i data-lucide="calculator" class="w-4 h-4"></i>
+          <span>Get Free Quote</span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobileMenuBtn" aria-label="Open Mobile Menu"
+        class="lg:hidden p-2 rounded-lg text-slate-800 hover:text-slate-950 hover:bg-slate-100 transition">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Backdrop -->
+  <div id="mobileBackdrop"
+    class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-300"></div>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobileDrawer"
+    class="fixed top-0 right-0 w-80 max-w-[85vw] h-full bg-white text-slate-900 z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col p-6 shadow-2xl border-l border-slate-200">
+    <div class="flex items-center justify-between pb-5 border-b border-slate-200">
+      <img src="assets/images/khroof.png" alt="K.H. Roofing" class="h-10 w-auto object-contain">
+      <button id="mobileMenuClose"
+        class="p-2 text-slate-500 hover:text-slate-900 rounded-lg hover:bg-slate-100 transition"
+        aria-label="Close Menu">
+        <i data-lucide="x" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <nav class="flex flex-col gap-4 py-6 text-base font-medium">
+      <a href="#home" class="mobile-nav-link text-slate-900 font-semibold hover:text-sky-600 transition py-1">Home</a>
+      <a href="#who-we-are" class="mobile-nav-link text-slate-700 hover:text-sky-600 transition py-1">Who We Are</a>
+      <a href="#services" class="mobile-nav-link text-slate-700 hover:text-sky-600 transition py-1">What We Do
+        (Services)</a>
+      <a href="#projects" class="mobile-nav-link text-slate-700 hover:text-sky-600 transition py-1">Our Projects</a>
+      <a href="#testimonials" class="mobile-nav-link text-slate-700 hover:text-sky-600 transition py-1">Customer
+        Reviews</a>
+      <a href="#areas" class="mobile-nav-link text-slate-700 hover:text-sky-600 transition py-1">Areas We Cover</a>
+      <a href="#contact" class="mobile-nav-link text-slate-700 hover:text-sky-600 transition py-1">Contact Us</a>
+    </nav>
+
+    <div class="mt-auto pt-6 border-t border-slate-200 flex flex-col gap-3">
+      <a href="#get-quote" class="mobile-nav-link btn-primary text-center py-3 rounded-lg font-bold text-sm shadow-sm">
+        Request A Free Quote
+      </a>
+      <a href="tel:+447522613823"
+        class="flex items-center justify-center gap-2 py-3 rounded-lg border border-slate-300 text-slate-900 font-bold text-sm hover:bg-slate-50 transition">
+        <i data-lucide="phone-call" class="w-4 h-4 text-sky-600"></i>
+        <span>Call 24/7: 07522 613 823</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       3. HERO SECTION WITH "GET QUOTE" FORM
+       ========================================================================= -->
+  <section id="home"
+    class="relative bg-gradient-to-b from-white via-slate-50 to-slate-100/70 text-slate-900 pt-10 pb-20 lg:pt-16 lg:pb-28 overflow-hidden border-b border-slate-200/80">
+    <!-- Subtle Background Pattern & Soft Lighting -->
+    <div
+      class="absolute inset-0 opacity-40 pointer-events-none bg-[radial-gradient(#CBD5E1_1px,transparent_1px)] [background-size:24px_24px]">
+    </div>
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-amber-200/25 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-1/2 -right-40 w-96 h-96 bg-sky-200/30 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+
+        <!-- Left Column: Compelling Hero Copy & Trust Badges -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+
+          <!-- Rating badge -->
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 text-xs font-medium text-slate-700 shadow-sm">
+            <div class="flex text-amber-500">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <span class="text-slate-900 font-semibold">5.0 Star Rated</span>
+            <span class="text-slate-300">•</span>
+            <span>Over 10 Years Serving Greater Manchester & North West</span>
+          </div>
+
+          <!-- Main H1 Headline -->
+          <h1
+            class="text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.1] text-slate-950">
+            Precision Roofing.<br>
+            <span class="text-slate-950 relative inline-block">
+              Guaranteed Protection
+              <span class="absolute bottom-1 left-0 right-0 h-3 bg-brand-gold/40 -z-10 rounded"></span>
+            </span><br>
+            For Your Home.
+          </h1>
+
+          <!-- Value Proposition Subtitle -->
+          <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+            Local family-run roofing specialists delivering impeccable craftsmanship across Manchester, Rochdale, and
+            Cheshire. From <strong class="text-slate-900 font-semibold">minor repairs from £50</strong> to <strong
+              class="text-slate-900 font-semibold">complete slate & tile re-roofs</strong> with a comprehensive <strong
+              class="text-slate-950 font-semibold">15-year guarantee</strong>.
+          </p>
+
+          <!-- Core Trust Pillars Checklist -->
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 max-w-xl mx-auto lg:mx-0 text-sm text-slate-700 text-left">
+            <div class="flex items-center gap-2.5">
+              <div
+                class="w-5 h-5 rounded-full bg-[#5facf296] flex items-center justify-center text-[#000] shrink-0 font-bold">
+                <i data-lucide="check" class="w-3.5 h-3.5"></i>
+              </div>
+              <span><strong>15-Year Guarantee</strong> (30-50yr durability)</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <div
+                class="w-5 h-5 rounded-full bg-[#5facf296] flex items-center justify-center text-[#000] shrink-0 font-bold">
+                <i data-lucide="check" class="w-3.5 h-3.5"></i>
+              </div>
+              <span><strong>£0 Call-Out Charge</strong> & Same-Day Service</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <div
+                class="w-5 h-5 rounded-full bg-[#5facf296] flex items-center justify-center text-[#000] shrink-0 font-bold">
+                <i data-lucide="check" class="w-3.5 h-3.5"></i>
+              </div>
+              <span><strong>24/7 Rapid Emergency Response</strong></span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <div
+                class="w-5 h-5 rounded-full bg-[#5facf296] flex items-center justify-center text-[#000] shrink-0 font-bold">
+                <i data-lucide="check" class="w-3.5 h-3.5"></i>
+              </div>
+              <span><strong>Free No-Obligation</strong> Photographic Quotes</span>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <a href="#get-quote"
+              class="btn-primary w-full sm:w-auto px-7 py-3.5 rounded-xl font-bold text-sm text-center flex items-center justify-center gap-2 shadow-md">
+              <i data-lucide="clipboard-list" class="w-4 h-4"></i>
+              <span>Get Your Free Quote Today</span>
+            </a>
+            <a href="tel:+447522613823"
+              class="w-full sm:w-auto px-6 py-3.5 rounded-xl font-semibold text-sm text-center flex items-center justify-center gap-2 bg-white text-slate-800 border border-slate-300 hover:border-brand-gold hover:bg-slate-50 transition shadow-sm">
+              <i data-lucide="phone" class="w-4 h-4 text-sky-600"></i>
+              <span>Call 24/7: 07522 613 823</span>
+            </a>
+          </div>
+
+          <!-- Live Customer Proof Quote Snippet -->
+          <div
+            class="pt-4 border-t border-slate-200 flex items-center justify-center lg:justify-start gap-3 text-xs text-slate-600">
+            <div
+              class="w-8 h-8 rounded-full bg-[#5facf296] border border-amber-200 flex items-center justify-center text-[#000] font-bold shrink-0">
+              LF
+            </div>
+            <p class="italic">
+              &ldquo;Such a friendly bunch, did such a good job on my roof! Top quality service.&rdquo;
+              <span class="text-slate-900 font-semibold not-italic">— Lindsay F., Openshaw</span>
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Interactive "Get Free Quote" Form Card -->
+        <div id="get-quote" class="lg:col-span-5 scroll-mt-28">
+          <div id="heroQuoteCard"
+            class="bg-white rounded-2xl p-6 sm:p-8 shadow-xl relative border border-slate-200/90 transition-all duration-300">
+
+            <!-- Card Header -->
+            <div class="flex items-center justify-between pb-5 border-b border-slate-100">
+              <div>
+                <span class="text-xs font-bold text-amber-600 tracking-widest uppercase block">Fast & Transparent</span>
+                <h2 class="text-xl sm:text-2xl font-heading font-extrabold text-slate-950 mt-0.5">Get A Free Quote</h2>
+              </div>
+              <div
+                class="w-10 h-10 rounded-xl bg-amber-50 text-[#000] border border-amber-200 flex items-center justify-center">
+                <i data-lucide="file-check" class="w-5 h-5"></i>
+              </div>
+            </div>
+
+            <!-- Interactive Estimate Guide Badge (Dynamic) -->
+            <div id="estimateBadge"
+              class="hidden mt-4 p-3 bg-amber-50 border border-amber-200 rounded-xl flex items-center justify-between text-xs">
+              <div class="flex items-center gap-2">
+                <i data-lucide="tag" class="w-4 h-4 text-[#000]"></i>
+                <span class="text-slate-600 font-medium">Estimated Guide:</span>
+              </div>
+              <span id="estimateAmount" class="font-extrabold text-[#000] text-sm">£50 - £160</span>
+            </div>
+
+            <!-- Active Form -->
+            <form id="heroQuoteForm" class="mt-5 space-y-4">
+              <!-- Service Needed Dropdown -->
+              <div>
+                <label for="quoteService" class="block text-xs font-semibold text-slate-700 mb-1.5">
+                  Service Required <span class="text-amber-600">*</span>
+                </label>
+                <div class="relative">
+                  <select id="quoteService" required
+                    class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 focus:outline-none focus:border-brand-gold focus:ring-1 focus:ring-brand-gold focus:bg-white transition appearance-none">
+                    <option value="" disabled selected>Select the service you need...</option>
+                    <option value="repairs">Roof Repairs & Leaks (From £50 - Same Day)</option>
+                    <option value="re-roof">Complete Roof Replacement (15-Yr Guarantee)</option>
+                    <option value="flat-roof">Flat Roof Installation (GRP / EPDM)</option>
+                    <option value="slating-tiling">Slating & Tiling Specialists</option>
+                    <option value="fascia-gutters">Fascias, Soffits & Guttering</option>
+                    <option value="emergency">24/7 Emergency Storm Damage</option>
+                  </select>
+                  <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-slate-400">
+                    <i data-lucide="chevron-down" class="w-4 h-4"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Property Type & Postcode Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label for="quoteProperty" class="block text-xs font-semibold text-slate-700 mb-1.5">
+                    Property Type
+                  </label>
+                  <select id="quoteProperty"
+                    class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2.5 text-sm text-slate-900 focus:outline-none focus:border-brand-gold focus:bg-white transition">
+                    <option value="semi" selected>Semi-Detached</option>
+                    <option value="terraced">Terraced House</option>
+                    <option value="detached">Detached Home</option>
+                    <option value="commercial">Commercial / Extension</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="quotePostcode" class="block text-xs font-semibold text-slate-700 mb-1.5">
+                    Postcode / Area <span class="text-amber-600">*</span>
+                  </label>
+                  <input type="text" id="quotePostcode" required placeholder="e.g. M3, SK8, OL11"
+                    class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:bg-white transition">
+                </div>
+              </div>
+
+              <!-- Customer Name & Phone -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label for="quoteName" class="block text-xs font-semibold text-slate-700 mb-1.5">
+                    Your Name <span class="text-amber-600">*</span>
+                  </label>
+                  <input type="text" id="quoteName" required placeholder="Full Name"
+                    class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:bg-white transition">
+                </div>
+                <div>
+                  <label for="quotePhone" class="block text-xs font-semibold text-slate-700 mb-1.5">
+                    Phone Number <span class="text-amber-600">*</span>
+                  </label>
+                  <input type="tel" id="quotePhone" required placeholder="07... or 0161..."
+                    class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:bg-white transition">
+                </div>
+              </div>
+
+              <!-- Short Details / Notes -->
+              <div>
+                <label for="quoteMessage" class="block text-xs font-semibold text-slate-700 mb-1.5">
+                  Brief Details (Optional)
+                </label>
+                <textarea id="quoteMessage" rows="2" placeholder="e.g. Missing slates after storm, leak near chimney..."
+                  class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-brand-gold focus:bg-white transition resize-none"></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit"
+                class="btn-primary w-full py-3.5 rounded-xl font-extrabold text-sm text-center flex items-center justify-center gap-2 mt-2 shadow-sm">
+                <span>Request Free Quote & Callback</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+
+              <div class="flex items-center justify-center gap-4 text-[11px] text-slate-500 pt-2">
+                <span class="flex items-center gap-1">
+                  <i data-lucide="lock" class="w-3 h-3 text-emerald-600"></i> No spam guarantee
+                </span>
+                <span>•</span>
+                <span class="flex items-center gap-1">
+                  <i data-lucide="clock" class="w-3 h-3 text-emerald-600"></i> Callback under 30 mins
+                </span>
+              </div>
+            </form>
+
+            <!-- Success Confirmation Card (Hidden by default) -->
+            <div id="quoteSuccessCard" class="hidden py-6 text-center space-y-4">
+              <div
+                class="w-14 h-14 bg-emerald-50 text-emerald-600 border border-emerald-200 rounded-full flex items-center justify-center mx-auto">
+                <i data-lucide="check-circle-2" class="w-8 h-8"></i>
+              </div>
+              <h3 class="text-xl font-heading font-bold text-slate-950">Quote Request Received!</h3>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Thank you, <strong id="successClientName" class="text-slate-950">Customer</strong>. Our specialist team
+                has logged your enquiry for <strong id="successService" class="text-[#000] font-bold">Roofing
+                  Service</strong>.
+              </p>
+
+              <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 text-xs text-left space-y-1.5">
+                <div class="flex justify-between text-slate-600">
+                  <span>Reference ID:</span>
+                  <span id="successRef" class="font-mono text-[#000] font-bold">KH-849201</span>
+                </div>
+                <div class="flex justify-between text-slate-600">
+                  <span>Contact Number:</span>
+                  <span id="successPhone" class="text-slate-950 font-semibold">07xxxxxxx</span>
+                </div>
+                <div class="flex justify-between text-slate-600">
+                  <span>Target Response:</span>
+                  <span class="text-emerald-700 font-bold">Under 30 Minutes</span>
+                </div>
+              </div>
+
+              <div class="pt-2 flex flex-col gap-2">
+                <a href="tel:+447522613823"
+                  class="btn-primary py-2.5 rounded-lg text-xs font-bold flex items-center justify-center gap-2 shadow-sm">
+                  <i data-lucide="phone-call" class="w-4 h-4"></i>
+                  <span>Need Immediate Attention? Call 07522 613 823</span>
+                </a>
+                <button id="resetQuoteBtn" type="button"
+                  class="text-xs text-slate-500 hover:text-slate-900 underline pt-1">
+                  Submit another enquiry
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. KEY STATS STRIP
+       ========================================================================= -->
+  <section class="bg-white border-y border-slate-200 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center divide-y md:divide-y-0 md:divide-x divide-slate-200">
+
+        <div class="pt-2 md:pt-0">
+          <div class="text-3xl sm:text-4xl font-heading font-extrabold text-slate-900 stat-value">10+</div>
+          <div class="text-xs sm:text-sm font-medium text-slate-500 mt-1">Years Serving North West</div>
+        </div>
+
+        <div class="pt-4 md:pt-0">
+          <div
+            class="text-3xl sm:text-4xl font-heading font-extrabold text-brand-charcoal stat-value flex items-center justify-center gap-1">
+            <span>15</span><span class="text-brand-gold font-bold">Yr</span>
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-slate-500 mt-1">Workmanship Guarantee</div>
+        </div>
+
+        <div class="pt-4 md:pt-0">
+          <div class="text-3xl sm:text-4xl font-heading font-extrabold text-slate-900 stat-value">£50</div>
+          <div class="text-xs sm:text-sm font-medium text-slate-500 mt-1">Repairs Starting From</div>
+        </div>
+
+        <div class="pt-4 md:pt-0">
+          <div class="text-3xl sm:text-4xl font-heading font-extrabold text-emerald-600 stat-value">£0</div>
+          <div class="text-xs sm:text-sm font-medium text-slate-500 mt-1">Call-Out Fee Ever</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. "WHO WE ARE" SECTION (ABOUT US - SIDE-BY-SIDE WITH IMAGE)
+       ========================================================================= -->
+  <section id="who-we-are" class="py-20 lg:py-28 bg-slate-50 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+
+        <!-- Left Side: About Text & Pillars -->
+        <div class="lg:col-span-6 space-y-6">
+
+          <div
+            class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#5facf296] text-[#000] text-xs font-bold tracking-wider uppercase">
+            <i data-lucide="award" class="w-3.5 h-3.5 text-[#000]"></i>
+            Who We Are
+          </div>
+
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-slate-950 tracking-tight leading-tight">
+            Your Local Leaders in Quality and Satisfaction.
+          </h2>
+
+          <div class="space-y-4 text-slate-700 text-base leading-relaxed">
+            <p>
+              We are a local, family-run roofing contractor providing a variety of top-quality roofing services at an
+              affordable price. Over the last <strong class="text-slate-950 font-semibold">10 years</strong>, we have
+              supplied impeccable craftsmanship and dependable service across the North West.
+            </p>
+            <p>
+              It would be right to assume that our job stands with roofing, but our ethos includes <strong
+                class="text-slate-950 font-semibold">ensuring our customers are completely worry-free</strong>.
+              Therefore, one of our experienced team will take your call at any time, on any day. We aim to get out to
+              you as soon as possible.
+            </p>
+            <blockquote
+              class="border-l-4 border-brand-gold pl-4 py-1 italic font-medium text-slate-900 bg-amber-50/50 rounded-r-lg">
+              &ldquo;No job is too big or too small. We'll handle it.&rdquo;
+            </blockquote>
+          </div>
+
+          <!-- The 3 Core Targets / Pillars -->
+          <div class="pt-2 space-y-3">
+            <h3 class="text-xs font-bold text-slate-400 tracking-wider uppercase">Our Three Core Targets</h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:border-brand-gold transition">
+                <div
+                  class="w-8 h-8 rounded-lg bg-[#5facf296] text-[#000] flex items-center justify-center mb-2 font-bold">
+                  1
+                </div>
+                <h4 class="font-heading font-bold text-slate-900 text-sm">Time Efficient</h4>
+                <p class="text-xs text-slate-600 mt-1">Prompt responses, same-day repairs, no dragging out jobs.</p>
+              </div>
+
+              <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:border-brand-gold transition">
+                <div
+                  class="w-8 h-8 rounded-lg bg-[#5facf296] text-[#000] flex items-center justify-center mb-2 font-bold">
+                  2
+                </div>
+                <h4 class="font-heading font-bold text-slate-900 text-sm">Competitively Priced</h4>
+                <p class="text-xs text-slate-600 mt-1">Fair quotes, zero call-out charges, repairs from £50.</p>
+              </div>
+
+              <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:border-brand-gold transition">
+                <div
+                  class="w-8 h-8 rounded-lg bg-[#5facf296] text-[#000] flex items-center justify-center mb-2 font-bold">
+                  3
+                </div>
+                <h4 class="font-heading font-bold text-slate-900 text-sm">Top Quality</h4>
+                <p class="text-xs text-slate-600 mt-1">Certified master slaters and flat roof systems with 15-year
+                  guarantee.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA to Services or Call -->
+          <div class="pt-2 flex items-center gap-4">
+            <a href="#services"
+              class="btn-primary px-6 py-3 rounded-lg text-xs sm:text-sm font-bold inline-flex items-center gap-2">
+              <span>Explore What We Do</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+            <a href="#contact"
+              class="text-xs sm:text-sm font-bold text-slate-700 hover:text-slate-950 underline underline-offset-4">
+              Speak with a team specialist
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Side: Side-by-Side Image Showcase with Badges -->
+        <div class="lg:col-span-6 relative">
+
+          <!-- Image Container with Clean Architectural Frame -->
+          <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200/80 bg-slate-900 group">
+            <img src="assets/images/about_craftsman.jpg"
+              alt="K.H. Roofing Contractors master roofing professional inspecting roof installation"
+              class="w-full h-[480px] object-cover group-hover:scale-105 transition-transform duration-700">
+            <!-- Gradient Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+
+            <!-- In-image caption / reassurance -->
+            <div class="absolute bottom-6 left-6 right-6 text-white">
+              <span
+                class="inline-block px-2.5 py-0.5 rounded bg-brand-gold text-slate-950 text-[11px] font-extrabold uppercase mb-1">
+                Family Run Heritage
+              </span>
+              <p class="text-sm font-semibold text-white drop-shadow">
+                Decades of combined master slating, tiling, and waterproofing expertise across the North West.
+              </p>
+            </div>
+          </div>
+
+          <!-- Floating Badge 1: 15-Year Guarantee -->
+          <div
+            class="absolute -top-5 -left-5 bg-white border border-slate-200 rounded-xl p-3.5 shadow-xl flex items-center gap-3 hidden sm:flex">
+            <div class="w-10 h-10 rounded-lg bg-brand-gold flex items-center justify-center text-slate-950 font-black">
+              <i data-lucide="shield-check" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <div class="text-xs font-bold text-slate-950">15-Year Written Guarantee</div>
+              <div class="text-[11px] text-slate-500">Up to 50yr hassle-free lifespan</div>
+            </div>
+          </div>
+
+          <!-- Floating Badge 2: Word of Mouth Trusted -->
+          <div
+            class="absolute -bottom-6 -right-5 bg-brand-slate-dark text-white border border-slate-800 rounded-xl p-4 shadow-2xl flex items-center gap-3 max-w-xs">
+            <div
+              class="w-10 h-10 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">
+              <i data-lucide="users" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <div class="text-xs font-bold text-white">Word-of-Mouth Driven</div>
+              <div class="text-[11px] text-slate-400">85%+ of projects from client referrals</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. "WHAT WE DO" SECTION (THE SERVICES WE PROVIDE)
+       ========================================================================= -->
+  <section id="services" class="py-20 lg:py-28 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+        <div
+          class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#5facf296] text-[#000] text-xs font-bold tracking-wider uppercase">
+          <i data-lucide="wrench" class="w-3.5 h-3.5 text-[#000]"></i>
+          What We Do
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-slate-950 tracking-tight">
+          Comprehensive Roofing Services Built to Last
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+          From £50 minor leak repairs to complete architectural slate installations. Every project is carried out with
+          optimal quality and guaranteed workmanship.
+        </p>
+      </div>
+
+      <!-- Services Grid: 6 Primary Core Services -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Service 1: Repairs & Maintenance -->
+        <div
+          class="bg-slate-50 rounded-2xl p-7 border border-slate-200 hover:border-brand-gold hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="flex items-center justify-between mb-4">
+            <div
+              class="w-12 h-12 rounded-xl bg-brand-gold text-slate-950 flex items-center justify-center font-bold shadow-md group-hover:scale-105 transition-transform">
+              <i data-lucide="hammer" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs font-extrabold px-3 py-1 rounded-full bg-emerald-100 text-emerald-800">
+              From Just £50
+            </span>
+          </div>
+
+          <h3 class="text-xl font-heading font-bold text-slate-900 mb-2">
+            Repairs & Maintenance
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4 flex-grow">
+            At K.H. Roofing, no job is too small. In fact, many jobs we do are minor repairs. We have a <strong
+              class="text-slate-900">no call out charge</strong> and can often take care of small repairs on the same
+            day.
+          </p>
+
+          <ul class="text-xs text-slate-700 space-y-2 mb-6 border-t border-slate-200 pt-4">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Broken slates & fallen tiles replacement</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Ridge tile re-pointing & dry ridge systems</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Emergency leak tracing & swift weather sealing</span>
+            </li>
+          </ul>
+
+          <button data-service="repairs"
+            class="service-quote-trigger w-full py-2.5 rounded-lg border border-slate-300 font-bold text-xs text-slate-800 hover:bg-brand-gold hover:border-brand-gold hover:text-slate-950 transition flex items-center justify-center gap-2">
+            <span>Get Quote for Repairs</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+
+        <!-- Service 2: Roof Replacement & Re-Roofing -->
+        <div
+          class="bg-slate-50 rounded-2xl p-7 border border-slate-200 hover:border-brand-gold hover:shadow-xl transition-all duration-300 flex flex-col group relative">
+          <!-- Featured Badge -->
+          <div
+            class="absolute -top-3 right-6 bg-brand-charcoal text-brand-gold text-[10px] font-extrabold uppercase px-3 py-1 rounded-full border border-brand-gold/30">
+            Most Popular
+          </div>
+
+          <div class="flex items-center justify-between mb-4">
+            <div
+              class="w-12 h-12 rounded-xl bg-brand-charcoal text-brand-gold flex items-center justify-center font-bold shadow-md group-hover:scale-105 transition-transform">
+              <i data-lucide="home" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs font-extrabold px-3 py-1 rounded-full bg-[#5facf296] text-[#000]">
+              15-Year Guarantee
+            </span>
+          </div>
+
+          <h3 class="text-xl font-heading font-bold text-slate-900 mb-2">
+            Roof Replacement
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4 flex-grow">
+            Our well-adapted team have a wealth of experience replacing both slate and tiled roofs across Manchester. We
+            source top-grade materials, delivering 30 to 50 years of hassle-free durability.
+          </p>
+
+          <ul class="text-xs text-slate-700 space-y-2 mb-6 border-t border-slate-200 pt-4">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>High-performance breathable roofing felt/membrane</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Treated timber battens & dry verge capping</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Competitively priced to industry rates</span>
+            </li>
+          </ul>
+
+          <button data-service="re-roof"
+            class="service-quote-trigger w-full py-2.5 rounded-lg border border-slate-300 font-bold text-xs text-slate-800 hover:bg-brand-gold hover:border-brand-gold hover:text-slate-950 transition flex items-center justify-center gap-2">
+            <span>Get Quote for Re-Roof</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+
+        <!-- Service 3: Flat Roof Installation -->
+        <div
+          class="bg-slate-50 rounded-2xl p-7 border border-slate-200 hover:border-brand-gold hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="flex items-center justify-between mb-4">
+            <div
+              class="w-12 h-12 rounded-xl bg-sky-600 text-white flex items-center justify-center font-bold shadow-md group-hover:scale-105 transition-transform">
+              <i data-lucide="layers" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs font-extrabold px-3 py-1 rounded-full bg-sky-100 text-sky-800">
+              GRP & EPDM
+            </span>
+          </div>
+
+          <h3 class="text-xl font-heading font-bold text-slate-900 mb-2">
+            Flat Roof Installation
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4 flex-grow">
+            Flat roofing requires a special set of skills. We classically replace flat roofs with high-quality materials
+            including GRP fibreglass or EPDM rubber with up to 50 years expected maintenance-free life.
+          </p>
+
+          <ul class="text-xs text-slate-700 space-y-2 mb-6 border-t border-slate-200 pt-4">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Seamless GRP fibreglass waterproofing</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Heavy-duty Firestone EPDM rubber systems</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Ideal for extensions, garages & dormers</span>
+            </li>
+          </ul>
+
+          <button data-service="flat-roof"
+            class="service-quote-trigger w-full py-2.5 rounded-lg border border-slate-300 font-bold text-xs text-slate-800 hover:bg-brand-gold hover:border-brand-gold hover:text-slate-950 transition flex items-center justify-center gap-2">
+            <span>Get Quote for Flat Roof</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+
+        <!-- Service 4: Slating & Tiling -->
+        <div
+          class="bg-slate-50 rounded-2xl p-7 border border-slate-200 hover:border-brand-gold hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="flex items-center justify-between mb-4">
+            <div
+              class="w-12 h-12 rounded-xl bg-slate-800 text-white flex items-center justify-center font-bold shadow-md group-hover:scale-105 transition-transform">
+              <i data-lucide="grid" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs font-extrabold px-3 py-1 rounded-full bg-slate-200 text-slate-800">
+              Heritage & Modern
+            </span>
+          </div>
+
+          <h3 class="text-xl font-heading font-bold text-slate-900 mb-2">
+            Slating & Tiling
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4 flex-grow">
+            No two roofs are the same. Our expert specialists evaluate your property to advise which action and
+            slate/tile material best fits your specific roof architecture and budget.
+          </p>
+
+          <ul class="text-xs text-slate-700 space-y-2 mb-6 border-t border-slate-200 pt-4">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Welsh, Spanish & reclaimed natural slates</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Interlocking concrete & clay roof tiles</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Pledge of optimal craftsmanship quality</span>
+            </li>
+          </ul>
+
+          <button data-service="slating-tiling"
+            class="service-quote-trigger w-full py-2.5 rounded-lg border border-slate-300 font-bold text-xs text-slate-800 hover:bg-brand-gold hover:border-brand-gold hover:text-slate-950 transition flex items-center justify-center gap-2">
+            <span>Get Quote for Slating</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+
+        <!-- Service 5: Fascia, Soffits & Guttering -->
+        <div
+          class="bg-slate-50 rounded-2xl p-7 border border-slate-200 hover:border-brand-gold hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="flex items-center justify-between mb-4">
+            <div
+              class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold shadow-md group-hover:scale-105 transition-transform">
+              <i data-lucide="droplets" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs font-extrabold px-3 py-1 rounded-full bg-emerald-100 text-emerald-800">
+              UPVC Solutions
+            </span>
+          </div>
+
+          <h3 class="text-xl font-heading font-bold text-slate-900 mb-2">
+            Fascia & Guttering
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4 flex-grow">
+            We fit and supply all types of UPVC fascia boards, soffits, dry verges, guttering, and cladding in square or
+            round profiles. We also clean and maintain systems to remove winter debris.
+          </p>
+
+          <ul class="text-xs text-slate-700 space-y-2 mb-6 border-t border-slate-200 pt-4">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Zero-maintenance UPVC fascias & soffits</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Seamless gutter replacements & realignments</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Springtime clearing & fixed component repairs</span>
+            </li>
+          </ul>
+
+          <button data-service="fascia-gutters"
+            class="service-quote-trigger w-full py-2.5 rounded-lg border border-slate-300 font-bold text-xs text-slate-800 hover:bg-brand-gold hover:border-brand-gold hover:text-slate-950 transition flex items-center justify-center gap-2">
+            <span>Get Quote for Gutters</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+
+        <!-- Service 6: 24/7 Emergency Storm Call-Out -->
+        <div
+          class="bg-brand-slate-dark text-white rounded-2xl p-7 border border-white/10 hover:border-brand-gold hover:shadow-2xl transition-all duration-300 flex flex-col group">
+          <div class="flex items-center justify-between mb-4">
+            <div
+              class="w-12 h-12 rounded-xl bg-brand-gold text-slate-950 flex items-center justify-center font-bold shadow-md group-hover:scale-105 transition-transform">
+              <i data-lucide="alert-triangle" class="w-6 h-6"></i>
+            </div>
+            <span
+              class="text-xs font-extrabold px-3 py-1 rounded-full bg-red-500/20 text-red-400 border border-red-500/30">
+              24/7 Emergency Line
+            </span>
+          </div>
+
+          <h3 class="text-xl font-heading font-bold text-white mb-2">
+            Emergency Call-Outs
+          </h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-4 flex-grow">
+            We operate a 24/7 emergency hotline across Manchester. When unexpected storms, falling trees, or severe
+            leaks strike, our mobile unit arrives rapidly to secure and make your home safe.
+          </p>
+
+          <ul class="text-xs text-slate-300 space-y-2 mb-6 border-t border-slate-800 pt-4">
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Immediate weatherproofing & tarpaulin security</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>No call-out penalty fees</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-gold"></i>
+              <span>Insurance claim documentation & photographic proof</span>
+            </li>
+          </ul>
+
+          <a href="tel:+447522613823"
+            class="btn-primary w-full py-2.5 rounded-lg font-bold text-xs text-center flex items-center justify-center gap-2">
+            <i data-lucide="phone-call" class="w-3.5 h-3.5"></i>
+            <span>Call 24/7 Emergency Line</span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Free Quotes & Consultation Feature Banner -->
+      <div
+        class="mt-14 bg-gradient-to-r from-slate-900 to-brand-slate-dark text-white rounded-2xl p-8 border border-white/10 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4 text-center md:text-left">
+          <div
+            class="w-14 h-14 rounded-2xl bg-brand-gold/10 text-brand-gold border border-brand-gold/20 flex items-center justify-center shrink-0">
+            <i data-lucide="clipboard-check" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <h4 class="text-xl font-heading font-bold text-white">Free Quotes & Estimates with Zero Obligation</h4>
+            <p class="text-sm text-slate-300 mt-1 max-w-xl">
+              To help match your budget and aesthetic needs, we give you a variety of tailored options. Call today to
+              book your free appointment with one of our specialist team.
+            </p>
+          </div>
+        </div>
+        <a href="#get-quote"
+          class="btn-primary px-6 py-3.5 rounded-xl font-bold text-xs sm:text-sm whitespace-nowrap shadow-md">
+          Book Free Appointment
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. "OUR PROJECTS" SECTION (PROJECTS GALLERY)
+       ========================================================================= -->
+  <section id="projects" class="py-20 lg:py-28 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div class="space-y-3 max-w-2xl">
+          <div
+            class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#5facf296] text-[#000] text-xs font-bold tracking-wider uppercase">
+            <i data-lucide="image" class="w-3.5 h-3.5 text-[#000]"></i>
+            Our Projects
+          </div>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-slate-950 tracking-tight">
+            Recent Work Across Manchester & North West
+          </h2>
+          <p class="text-slate-600 text-base">
+            Explore our portfolio of slate restorations, flat roofs, and UPVC upgrades. Every job completed with our
+            15-year guarantee.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap gap-2">
+          <button data-filter="all"
+            class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-bold bg-brand-gold text-slate-950 shadow-md transition">
+            All Projects
+          </button>
+          <button data-filter="re-roof"
+            class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-100 text-slate-700 hover:bg-slate-200 transition">
+            Re-Roofs
+          </button>
+          <button data-filter="slate"
+            class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-100 text-slate-700 hover:bg-slate-200 transition">
+            Slate & Tile
+          </button>
+          <button data-filter="flat"
+            class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-100 text-slate-700 hover:bg-slate-200 transition">
+            Flat Roofs
+          </button>
+          <button data-filter="gutters"
+            class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-100 text-slate-700 hover:bg-slate-200 transition">
+            UPVC & Gutters
+          </button>
+          <button data-filter="repairs"
+            class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-100 text-slate-700 hover:bg-slate-200 transition">
+            Repairs
+          </button>
+        </div>
+      </div>
+
+      <!-- Projects Grid -->
+      <div id="galleryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Project 1: Full Slate Re-Roof (Didsbury) -->
+        <div
+          class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group"
+          data-category="re-roof slate" data-duration="4 Days" data-warranty="15-Year Guarantee"
+          data-desc="Complete slate replacement using premium Welsh slate, new breathable membrane, and dry ridge system in Didsbury.">
+          <div class="img-zoom-container relative h-64 bg-slate-800">
+            <img src="assets/images/project_slate_didsbury.jpg" alt="Full Slate Re-Roof in Didsbury"
+              class="w-full h-full object-cover">
+            <div
+              class="absolute top-3 left-3 bg-brand-slate-dark/90 backdrop-blur-sm text-brand-gold text-[11px] font-bold px-3 py-1 rounded-md project-badge">
+              Full Slate Re-Roof
+            </div>
+            <div
+              class="absolute top-3 right-3 bg-white/95 text-slate-900 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow">
+              Didsbury, Manchester
+            </div>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center justify-between text-xs text-slate-500 mb-1.5">
+              <span class="project-location font-medium text-slate-700">South Manchester</span>
+              <span class="text-emerald-700 font-semibold">15-Yr Guarantee</span>
+            </div>
+            <h3 class="project-title font-heading font-bold text-slate-900 text-lg group-hover:text-[#000] transition">
+              Welsh Slate Pitch Restoration
+            </h3>
+            <p class="text-xs text-slate-600 mt-2 line-clamp-2">
+              Complete strip and re-slate with bespoke lead flashing and high-spec dry verge system.
+            </p>
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-[11px] text-slate-500">Duration: 4 Working Days</span>
+              <button
+                class="inspect-project-btn text-xs font-bold text-[#000] hover:text-[#000] flex items-center gap-1">
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Flat Roof Extension (Cheadle) -->
+        <div
+          class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group"
+          data-category="flat" data-duration="2 Days" data-warranty="15-Year EPDM Warranty"
+          data-desc="Seamless Firestone EPDM rubber flat roof replacement on rear kitchen extension in Cheadle. 100% watertight.">
+          <div class="img-zoom-container relative h-64 bg-slate-800">
+            <img src="assets/images/project_epdm_cheadle.jpg" alt="EPDM Flat Roof Extension in Cheadle"
+              class="w-full h-full object-cover">
+            <div
+              class="absolute top-3 left-3 bg-brand-slate-dark/90 backdrop-blur-sm text-brand-gold text-[11px] font-bold px-3 py-1 rounded-md project-badge">
+              Flat Roof Installation
+            </div>
+            <div
+              class="absolute top-3 right-3 bg-white/95 text-slate-900 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow">
+              Cheadle, Stockport
+            </div>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center justify-between text-xs text-slate-500 mb-1.5">
+              <span class="project-location font-medium text-slate-700">Stockport Borough</span>
+              <span class="text-sky-700 font-semibold">EPDM System</span>
+            </div>
+            <h3 class="project-title font-heading font-bold text-slate-900 text-lg group-hover:text-[#000] transition">
+              Firestone EPDM Flat Roof Extension
+            </h3>
+            <p class="text-xs text-slate-600 mt-2 line-clamp-2">
+              Replaced degraded felt with modern seamless EPDM rubber with custom edge trims and downpipes.
+            </p>
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-[11px] text-slate-500">Duration: 2 Working Days</span>
+              <button
+                class="inspect-project-btn text-xs font-bold text-[#000] hover:text-[#000] flex items-center gap-1">
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Tile Replacement & Re-Roof (Rochdale) -->
+        <div
+          class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group"
+          data-category="re-roof slate" data-duration="5 Days" data-warranty="15-Year Guarantee"
+          data-desc="Full re-roof of detached family home in Rochdale using Marley modern interlocking concrete tiles.">
+          <div class="img-zoom-container relative h-64 bg-slate-800">
+            <img src="assets/images/project_tile_rochdale.jpg" alt="Tile Re-Roof in Rochdale"
+              class="w-full h-full object-cover">
+            <div
+              class="absolute top-3 left-3 bg-brand-slate-dark/90 backdrop-blur-sm text-brand-gold text-[11px] font-bold px-3 py-1 rounded-md project-badge">
+              Tile Roof Replacement
+            </div>
+            <div
+              class="absolute top-3 right-3 bg-white/95 text-slate-900 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow">
+              Rochdale
+            </div>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center justify-between text-xs text-slate-500 mb-1.5">
+              <span class="project-location font-medium text-slate-700">Rochdale & Heywood</span>
+              <span class="text-[#000] font-semibold">Marley Tiles</span>
+            </div>
+            <h3 class="project-title font-heading font-bold text-slate-900 text-lg group-hover:text-[#000] transition">
+              Concrete Interlocking Re-Roof
+            </h3>
+            <p class="text-xs text-slate-600 mt-2 line-clamp-2">
+              New treated laths, breathable membrane, dry ridge, and deep-flow gutter integration.
+            </p>
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-[11px] text-slate-500">Duration: 5 Working Days</span>
+              <button
+                class="inspect-project-btn text-xs font-bold text-[#000] hover:text-[#000] flex items-center gap-1">
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: UPVC Fascias & Seamless Gutters (Prestwich) -->
+        <div
+          class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group"
+          data-category="gutters" data-duration="1 Day" data-warranty="10-Year UPVC Guarantee"
+          data-desc="Anthracite grey UPVC fascia boards, vented soffits, and high-capacity guttering installed in Prestwich.">
+          <div class="img-zoom-container relative h-64 bg-slate-800">
+            <img src="assets/images/project_gutters_prestwich.jpg" alt="UPVC Fascias and Gutters in Prestwich"
+              class="w-full h-full object-cover">
+            <div
+              class="absolute top-3 left-3 bg-brand-slate-dark/90 backdrop-blur-sm text-brand-gold text-[11px] font-bold px-3 py-1 rounded-md project-badge">
+              Fascia & Guttering
+            </div>
+            <div
+              class="absolute top-3 right-3 bg-white/95 text-slate-900 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow">
+              Prestwich, Bury
+            </div>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center justify-between text-xs text-slate-500 mb-1.5">
+              <span class="project-location font-medium text-slate-700">Bury Borough</span>
+              <span class="text-slate-800 font-semibold">Anthracite UPVC</span>
+            </div>
+            <h3 class="project-title font-heading font-bold text-slate-900 text-lg group-hover:text-[#000] transition">
+              Anthracite Roofline Transformation
+            </h3>
+            <p class="text-xs text-slate-600 mt-2 line-clamp-2">
+              Replaced rotting timber fascias with zero-maintenance UPVC boards and seamless downspouts.
+            </p>
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-[11px] text-slate-500">Duration: 1 Working Day</span>
+              <button
+                class="inspect-project-btn text-xs font-bold text-[#000] hover:text-[#000] flex items-center gap-1">
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Emergency Storm Repair (Openshaw) -->
+        <div
+          class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group"
+          data-category="repairs slate" data-duration="Same Day (2 Hours)" data-warranty="Repairs Guaranteed"
+          data-desc="Same-day emergency response after gale-force wind dislodged slates and cracked flashing in Openshaw.">
+          <div class="img-zoom-container relative h-64 bg-slate-800">
+            <img src="assets/images/project_storm_openshaw.jpg" alt="Emergency Storm Repair in Openshaw"
+              class="w-full h-full object-cover">
+            <div
+              class="absolute top-3 left-3 bg-red-600 text-white text-[11px] font-bold px-3 py-1 rounded-md project-badge">
+              Emergency Repair
+            </div>
+            <div
+              class="absolute top-3 right-3 bg-white/95 text-slate-900 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow">
+              Openshaw, Manchester
+            </div>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center justify-between text-xs text-slate-500 mb-1.5">
+              <span class="project-location font-medium text-slate-700">East Manchester</span>
+              <span class="text-emerald-700 font-semibold">Repairs from £50</span>
+            </div>
+            <h3 class="project-title font-heading font-bold text-slate-900 text-lg group-hover:text-[#000] transition">
+              Same-Day Storm Damage Repair
+            </h3>
+            <p class="text-xs text-slate-600 mt-2 line-clamp-2">
+              Replaced 12 storm-damaged slates, resealed chimney apron flashing, and prevented internal ceiling
+              collapse.
+            </p>
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-[11px] text-slate-500">Duration: 2.5 Hours (Same Day)</span>
+              <button
+                class="inspect-project-btn text-xs font-bold text-[#000] hover:text-[#000] flex items-center gap-1">
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: GRP Fibreglass Dormer (Wilmslow) -->
+        <div
+          class="gallery-item bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group"
+          data-category="flat re-roof" data-duration="3 Days" data-warranty="15-Year Guarantee"
+          data-desc="Heavy-duty GRP fibreglass roof installed on newly extended dormer bedroom in Wilmslow.">
+          <div class="img-zoom-container relative h-64 bg-slate-800">
+            <img src="assets/images/project_dormer_wilmslow.jpg" alt="GRP Fibreglass Dormer Roof in Wilmslow"
+              class="w-full h-full object-cover">
+            <div
+              class="absolute top-3 left-3 bg-brand-slate-dark/90 backdrop-blur-sm text-brand-gold text-[11px] font-bold px-3 py-1 rounded-md project-badge">
+              GRP Flat Roof
+            </div>
+            <div
+              class="absolute top-3 right-3 bg-white/95 text-slate-900 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow">
+              Wilmslow, Cheshire
+            </div>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center justify-between text-xs text-slate-500 mb-1.5">
+              <span class="project-location font-medium text-slate-700">Cheshire Golden Triangle</span>
+              <span class="text-[#000] font-semibold">Cromar GRP</span>
+            </div>
+            <h3 class="project-title font-heading font-bold text-slate-900 text-lg group-hover:text-[#000] transition">
+              Architectural Dormer Waterproofing
+            </h3>
+            <p class="text-xs text-slate-600 mt-2 line-clamp-2">
+              Tough UV-stable topcoat with seamless jointing and 15-year insurance-backed guarantee.
+            </p>
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-[11px] text-slate-500">Duration: 3 Working Days</span>
+              <button
+                class="inspect-project-btn text-xs font-bold text-[#000] hover:text-[#000] flex items-center gap-1">
+                <span>View Details</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Gallery CTA -->
+      <div class="mt-12 text-center">
+        <p class="text-sm text-slate-600 mb-4">
+          Have a similar project in mind? We provide free photographic surveys and no-obligation estimates.
+        </p>
+        <a href="#get-quote" class="btn-primary inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm">
+          <i data-lucide="calculator" class="w-4 h-4"></i>
+          <span>Request Quote for Your Property</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. INTERACTIVE COST ESTIMATOR CALCULATOR
+       ========================================================================= -->
+  <section class="py-16 bg-slate-900 text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="bg-brand-slate-dark border border-white/10 rounded-3xl p-8 sm:p-12 shadow-2xl">
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+
+          <div class="lg:col-span-5 space-y-4">
+            <span class="text-xs font-extrabold text-brand-gold tracking-widest uppercase block">
+              Transparent Pricing Guide
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-white">
+              Instant Roofing Cost Estimator
+            </h2>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              We believe in open, competitive pricing. Select your property specifics to view an immediate indicative
+              cost bracket before your free diagnostic survey.
+            </p>
+            <div class="pt-2 text-xs text-slate-400 space-y-1.5">
+              <div class="flex items-center gap-2">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-brand-gold"></i>
+                <span>No call-out charge ever</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-brand-gold"></i>
+                <span>Minor repairs start from just £50</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-brand-gold"></i>
+                <span>15-Year guarantee on full re-roofs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Calculator Controls & Live Output -->
+          <div class="lg:col-span-7 bg-slate-900/90 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="calcService" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Type of Work
+                </label>
+                <select id="calcService"
+                  class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:border-brand-gold focus:outline-none">
+                  <option value="repairs">Minor Roof Repairs (From £50)</option>
+                  <option value="re-roof" selected>Complete Re-Roof (Slate / Tile)</option>
+                  <option value="flat-roof">Flat Roof System (GRP / EPDM)</option>
+                  <option value="fascia-gutters">UPVC Fascia, Soffits & Gutters</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="calcProperty" class="block text-xs font-semibold text-slate-300 mb-1.5">
+                  Property Size
+                </label>
+                <select id="calcProperty"
+                  class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2.5 text-sm text-white focus:border-brand-gold focus:outline-none">
+                  <option value="terraced">Terraced (1-2 Bed)</option>
+                  <option value="semi" selected>Semi-Detached (3 Bed)</option>
+                  <option value="detached">Detached (4+ Bed)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Result Box -->
+            <div
+              class="bg-brand-slate-dark border border-brand-gold/30 rounded-xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div>
+                <span class="text-xs text-slate-400 block">Estimated Price Bracket:</span>
+                <div id="calcResultPrice"
+                  class="text-2xl sm:text-3xl font-heading font-extrabold text-brand-gold mt-0.5">
+                  £4,900 - £7,600
+                </div>
+                <div class="text-[11px] text-slate-400 mt-1">
+                  Warranty: <span id="calcResultWarranty" class="text-white font-medium">15-Year Full Guarantee</span>
+                </div>
+              </div>
+
+              <button id="calcApplyBtn"
+                class="btn-primary w-full sm:w-auto px-6 py-3 rounded-lg text-xs font-extrabold whitespace-nowrap">
+                Apply & Request Survey
+              </button>
+            </div>
+
+            <p class="text-[11px] text-slate-500 text-center">
+              *Estimates are indicative guides. Final fixed price is determined upon free photographic inspection.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. "TESTIMONIALS" SECTION (AUTHENTIC REVIEWS FROM SITE)
+       ========================================================================= -->
+  <section id="testimonials" class="py-20 lg:py-28 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+        <div
+          class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#5facf296] text-[#000] text-xs font-bold tracking-wider uppercase">
+          <i data-lucide="star" class="w-3.5 h-3.5 text-[#000]"></i>
+          Customer Reviews
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-slate-950 tracking-tight">
+          What Our Customers Say
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg">
+          Over 85% of our trade comes through word-of-mouth. Read genuine feedback from homeowners across Greater
+          Manchester.
+        </p>
+
+        <!-- Trust Scorecard -->
+        <div class="inline-flex items-center gap-3 px-4 py-2 rounded-xl bg-slate-50 border border-slate-200 text-xs">
+          <div class="flex text-amber-500 text-sm">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <span class="font-bold text-slate-900">5.0 / 5.0 Rating</span>
+          <span class="text-slate-400">•</span>
+          <span class="text-slate-600">100% Recommended by Homeowners</span>
+        </div>
+      </div>
+
+      <!-- Testimonial Cards: Authentic Quotes from khroofs.com -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Review 1: Lindsay Funston, Openshaw -->
+        <div
+          class="bg-slate-50 rounded-2xl p-7 border border-slate-200 shadow-sm hover:border-brand-gold hover:shadow-xl transition-all duration-300 flex flex-col relative">
+          <div class="flex items-center gap-1 text-amber-500 mb-4">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <blockquote class="text-slate-700 text-sm leading-relaxed mb-6 flex-grow italic">
+            &ldquo;Such a friendly bunch, know what they're doing. Did such a good job on my roof so I referred them to
+            my friend who had issues with hers. She said the same! Top quality service. Top quality roofing.&rdquo;
+          </blockquote>
+          <div class="pt-4 border-t border-slate-200 flex items-center gap-3">
+            <div
+              class="w-10 h-10 rounded-full bg-brand-charcoal text-brand-gold font-bold flex items-center justify-center text-sm">
+              LF
+            </div>
+            <div>
+              <div class="font-heading font-bold text-slate-950 text-sm">Lindsay Funston</div>
+              <div class="text-xs text-slate-500 flex items-center gap-1">
+                <i data-lucide="map-pin" class="w-3 h-3 text-[#000]"></i>
+                Openshaw, Manchester
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2: Michael Clegg, Rochdale -->
+        <div
+          class="bg-slate-50 rounded-2xl p-7 border border-brand-gold/40 shadow-md hover:border-brand-gold hover:shadow-xl transition-all duration-300 flex flex-col relative">
+          <!-- Verified Client Badge -->
+          <div
+            class="absolute -top-3 right-6 bg-brand-gold text-slate-950 text-[10px] font-extrabold uppercase px-3 py-1 rounded-full shadow-sm">
+            Re-Roof Customer
+          </div>
+
+          <div class="flex items-center gap-1 text-amber-500 mb-4">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <blockquote class="text-slate-700 text-sm leading-relaxed mb-6 flex-grow italic">
+            &ldquo;Was advised to use this roofing contractors by my friend who was booked up on the day. Usually only
+            use people I know as tradesmen have a reputation for being unreliable. This company was amazing!! Very
+            prompt, reliable and efficient. Thank you for my new roof. Wouldn't go anywhere else for my roofing
+            needs.&rdquo;
+          </blockquote>
+          <div class="pt-4 border-t border-slate-200 flex items-center gap-3">
+            <div
+              class="w-10 h-10 rounded-full bg-brand-charcoal text-brand-gold font-bold flex items-center justify-center text-sm">
+              MC
+            </div>
+            <div>
+              <div class="font-heading font-bold text-slate-950 text-sm">Michael Clegg</div>
+              <div class="text-xs text-slate-500 flex items-center gap-1">
+                <i data-lucide="map-pin" class="w-3 h-3 text-[#000]"></i>
+                Rochdale
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3: Linda Collin, Cheadle -->
+        <div
+          class="bg-slate-50 rounded-2xl p-7 border border-slate-200 shadow-sm hover:border-brand-gold hover:shadow-xl transition-all duration-300 flex flex-col relative">
+          <div class="flex items-center gap-1 text-amber-500 mb-4">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <blockquote class="text-slate-700 text-sm leading-relaxed mb-6 flex-grow italic">
+            &ldquo;The guys that came round really made my day. After stressing about my gutter being blocked, they came
+            round and fixed it within minutes. Their sense of humour was 5 star. Would pay to watch them at a comedy
+            club too haha.. double whammy!&rdquo;
+          </blockquote>
+          <div class="pt-4 border-t border-slate-200 flex items-center gap-3">
+            <div
+              class="w-10 h-10 rounded-full bg-brand-charcoal text-brand-gold font-bold flex items-center justify-center text-sm">
+              LC
+            </div>
+            <div>
+              <div class="font-heading font-bold text-slate-950 text-sm">Linda Collin</div>
+              <div class="text-xs text-slate-500 flex items-center gap-1">
+                <i data-lucide="map-pin" class="w-3 h-3 text-[#000]"></i>
+                Cheadle, Stockport
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. "AREAS WE COVER" SECTION (MANCHESTER & SURROUNDING BOROUGHS)
+       ========================================================================= -->
+  <section id="areas" class="py-20 lg:py-28 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+        <div
+          class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#5facf296] text-[#000] text-xs font-bold tracking-wider uppercase">
+          <i data-lucide="map" class="w-3.5 h-3.5 text-[#000]"></i>
+          Areas We Cover
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-slate-950 tracking-tight">
+          We Operate in and Around Manchester
+        </h2>
+        <p class="text-slate-600 text-base">
+          Our rapid mobile teams operate across all metropolitan boroughs of Greater Manchester and Cheshire with
+          <strong class="text-slate-900">zero call-out fees</strong>.
+        </p>
+
+        <!-- Interactive Search Bar -->
+        <div class="max-w-md mx-auto pt-4">
+          <div class="relative">
+            <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+            <input type="text" id="areaSearchInput"
+              placeholder="Search your town or postcode (e.g. Didsbury, Rochdale, Wilmslow)..."
+              class="w-full bg-white border border-slate-300 rounded-xl pl-11 pr-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-brand-gold shadow-sm transition">
+          </div>
+          <div id="areaSearchResult"
+            class="hidden mt-3 p-3 bg-white border border-slate-200 rounded-lg text-xs shadow-sm"></div>
+        </div>
+      </div>
+
+      <!-- Regional Borough Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- Region 1: Manchester City & South -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div class="flex items-center gap-2 text-slate-900 font-heading font-bold text-base">
+            <i data-lucide="building" class="w-4 h-4 text-brand-gold"></i>
+            <span>Manchester Central & South</span>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-1">
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">City Centre</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Deansgate</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Didsbury</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Chorlton</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Openshaw</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Fallowfield</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Withington</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Ancoats</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Castlefield</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Burnage</span>
+          </div>
+        </div>
+
+        <!-- Region 2: Rochdale & Heywood -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div class="flex items-center gap-2 text-slate-900 font-heading font-bold text-base">
+            <i data-lucide="map-pin" class="w-4 h-4 text-brand-gold"></i>
+            <span>Rochdale & Heywood</span>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-1">
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Rochdale Town</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Bamford</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Castleton</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Norden</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Littleborough</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Milnrow</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Newhey</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Heywood</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Wardle</span>
+          </div>
+        </div>
+
+        <!-- Region 3: Cheshire & Stockport -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div class="flex items-center gap-2 text-slate-900 font-heading font-bold text-base">
+            <i data-lucide="compass" class="w-4 h-4 text-brand-gold"></i>
+            <span>Cheshire & Stockport</span>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-1">
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Wilmslow</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Alderley Edge</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Macclesfield</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Cheadle</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Cheadle Hulme</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Bramhall</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Poynton</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Knutsford</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Marple</span>
+          </div>
+        </div>
+
+        <!-- Region 4: Bury, Oldham, Bolton & Salford -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div class="flex items-center gap-2 text-slate-900 font-heading font-bold text-base">
+            <i data-lucide="navigation" class="w-4 h-4 text-brand-gold"></i>
+            <span>Bury, Oldham & Bolton</span>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-1">
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Prestwich</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Whitefield</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Radcliffe</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Ramsbottom</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Chadderton</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Royton</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Failsworth</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Horwich</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Eccles</span>
+            <span class="area-tag text-xs px-2.5 py-1 bg-slate-100 rounded-md text-slate-700">Worsley</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. HIGH IMPACT CALL-TO-ACTION BANNER
+       ========================================================================= -->
+  <section class="bg-brand-slate-dark text-white py-16 relative overflow-hidden border-t border-white/10">
+    <div class="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-transparent to-sky-500/10 pointer-events-none">
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-6">
+      <span class="text-xs font-bold text-brand-gold tracking-widest uppercase block">
+        Ready for peace of mind?
+      </span>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-white max-w-3xl mx-auto">
+        Speak Directly With Our Master Roofing Team Today
+      </h2>
+      <p class="text-slate-300 text-base max-w-2xl mx-auto leading-relaxed">
+        Whether you have a minor slipped tile or need a full architectural slate re-roof, we are ready with expert
+        advice, transparent pricing, and zero call-out fees.
+      </p>
+
+      <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="tel:+447522613823"
+          class="btn-primary w-full sm:w-auto px-8 py-4 rounded-xl font-extrabold text-sm flex items-center justify-center gap-2">
+          <i data-lucide="phone-call" class="w-4 h-4"></i>
+          <span>Call 24/7 Mobile: 07522 613 823</span>
+        </a>
+        <a href="#get-quote"
+          class="btn-secondary w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm flex items-center justify-center gap-2">
+          <i data-lucide="calendar" class="w-4 h-4 text-brand-gold"></i>
+          <span>Book Free Home Inspection</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       12. FOOTER
+       ========================================================================= -->
+  <footer id="contact" class="bg-brand-slate-dark text-slate-400 pt-16 pb-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Top Footer Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
+
+        <!-- Brand Info Column (2 cols) -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <img src="assets/images/khroof-light.png" alt="K.H. Roofing Contractors Ltd"
+              class="h-12 sm:h-14 w-auto object-contain transition-transform group-hover:scale-[1.02]">
+          </div>
+
+          <p class="text-xs sm:text-sm text-slate-400 leading-relaxed pr-6">
+            Manchester's trusted local, family-run roofing contractor. Dedicated to our three core targets: time
+            efficient, competitively priced, and top quality.
+          </p>
+
+          <div class="pt-2 text-xs space-y-1.5 text-slate-300">
+            <div class="flex items-start gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-brand-gold shrink-0 mt-0.5"></i>
+              <span>62-66 Regency Court, Deansgate, Manchester, M3 2EN</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="mail" class="w-4 h-4 text-brand-gold shrink-0"></i>
+              <a href="mailto:Enquiries@khroofs.co.uk" class="hover:text-white transition">Enquiries@khroofs.co.uk</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="space-y-3">
+          <h3 class="font-heading font-bold text-white text-sm tracking-wider uppercase">Navigation</h3>
+          <ul class="text-xs space-y-2">
+            <li><a href="#home" class="hover:text-brand-gold transition">Home</a></li>
+            <li><a href="#who-we-are" class="hover:text-brand-gold transition">Who We Are</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">What We Do</a></li>
+            <li><a href="#projects" class="hover:text-brand-gold transition">Our Projects Gallery</a></li>
+            <li><a href="#testimonials" class="hover:text-brand-gold transition">Customer Reviews</a></li>
+            <li><a href="#areas" class="hover:text-brand-gold transition">Areas We Cover</a></li>
+            <li><a href="#get-quote" class="hover:text-brand-gold transition">Get Free Quote</a></li>
+          </ul>
+        </div>
+
+        <!-- Roofing Services -->
+        <div class="space-y-3">
+          <h3 class="font-heading font-bold text-white text-sm tracking-wider uppercase">Services</h3>
+          <ul class="text-xs space-y-2">
+            <li><a href="#services" class="hover:text-brand-gold transition">Minor Repairs (From £50)</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">Full Roof Replacements</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">Slate & Tiling Specialists</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">GRP & EPDM Flat Roofs</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">Fascias, Soffits & Gutters</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">Chimney Flashing & Valleys</a></li>
+            <li><a href="tel:+447522613823" class="text-brand-gold font-bold">24/7 Emergency Storm Line</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Office Lines -->
+        <div class="space-y-3">
+          <h3 class="font-heading font-bold text-white text-sm tracking-wider uppercase">Direct Offices</h3>
+          <div class="space-y-2.5 text-xs">
+            <div>
+              <span class="text-slate-400 block">Manchester Head Office:</span>
+              <a href="tel:+441618257408" class="text-white font-bold hover:text-brand-gold transition">0161 825
+                7408</a>
+            </div>
+            <div>
+              <span class="text-slate-400 block">Cheshire Office:</span>
+              <a href="tel:+441625241632" class="text-white font-bold hover:text-brand-gold transition">01625 241
+                632</a>
+            </div>
+            <div>
+              <span class="text-slate-400 block">Rochdale Office:</span>
+              <a href="tel:+441706540527" class="text-white font-bold hover:text-brand-gold transition">01706 540
+                527</a>
+            </div>
+            <div>
+              <span class="text-slate-400 block">24/7 Mobile & Emergency:</span>
+              <a href="tel:+447522613823" class="text-brand-gold font-bold hover:text-white transition">07522 613
+                823</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+        <div>
+          &copy; <span id="currentYear">2026</span> K.H. ROOFING CONTRACTORS LTD. All rights reserved.
+        </div>
+        <div class="flex items-center gap-6">
+          <span>15-Year Workmanship Guarantee</span>
+          <span>•</span>
+          <span>No Call-Out Charge</span>
+          <span>•</span>
+          <a href="#home" class="text-brand-gold hover:underline">Back to top ↑</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       13. FLOATING BACK TO TOP & QUICK CALL BUTTONS
+       ========================================================================= -->
+  <button id="backToTop" aria-label="Back to Top"
+    class="fixed bottom-6 right-6 z-40 w-11 h-11 rounded-full bg-brand-gold text-slate-950 font-bold shadow-xl flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 hover:scale-110">
+    <i data-lucide="chevron-up" class="w-5 h-5"></i>
+  </button>
+
+  <!-- Mobile Fixed Direct Dial Button (High Conversion) -->
+  <div
+    class="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-brand-slate-dark/95 backdrop-blur-md border-t border-white/10 p-3 flex gap-2">
+    <a href="tel:+447522613823"
+      class="flex-1 bg-red-600 text-white font-bold text-xs py-2.5 rounded-lg flex items-center justify-center gap-1.5 shadow">
+      <i data-lucide="phone-call" class="w-4 h-4"></i>
+      <span>Emergency 24/7</span>
+    </a>
+    <a href="#get-quote"
+      class="flex-1 btn-primary text-slate-950 font-bold text-xs py-2.5 rounded-lg flex items-center justify-center gap-1.5 shadow">
+      <i data-lucide="calculator" class="w-4 h-4"></i>
+      <span>Get Quote</span>
+    </a>
+  </div>
+
+  <!-- =========================================================================
+       14. PROJECT DETAILS LIGHTBOX MODAL
+       ========================================================================= -->
+  <div id="projectModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+    <!-- Backdrop -->
+    <div id="projectModalBackdrop" class="fixed inset-0 bg-black/80 backdrop-blur-sm transition-opacity"></div>
+
+    <!-- Modal Card -->
+    <div class="relative bg-white rounded-2xl max-w-3xl w-full overflow-hidden shadow-2xl z-10 border border-slate-200">
+
+      <!-- Close Button -->
+      <button id="projectModalClose" aria-label="Close Project Modal"
+        class="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-black/60 text-white flex items-center justify-center hover:bg-black transition">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <!-- Project Image -->
+        <div class="relative h-64 md:h-full bg-slate-900">
+          <img id="modalProjectImg" src="" alt="Project Photo" class="w-full h-full object-cover">
+          <div id="modalProjectCategory"
+            class="absolute top-3 left-3 bg-brand-slate-dark text-brand-gold text-xs font-bold px-3 py-1 rounded-md">
+            Roofing
+          </div>
+        </div>
+
+        <!-- Project Details -->
+        <div class="p-6 sm:p-8 flex flex-col justify-between space-y-4">
+          <div>
+            <span id="modalProjectLocation" class="text-xs font-bold text-[#000] uppercase tracking-wider block">
+              Manchester
+            </span>
+            <h3 id="modalProjectTitle" class="text-2xl font-heading font-extrabold text-slate-950 mt-1">
+              Project Title
+            </h3>
+            <p id="modalProjectDescription" class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+              Full project overview details.
+            </p>
+          </div>
+
+          <div class="space-y-2 border-y border-slate-100 py-3 text-xs">
+            <div class="flex justify-between">
+              <span class="text-slate-500">Completion Duration:</span>
+              <span id="modalProjectDuration" class="font-bold text-slate-900">3 Days</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-500">Warranty Coverage:</span>
+              <span id="modalProjectWarranty" class="font-bold text-emerald-700">15-Year Guarantee</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-500">Standards:</span>
+              <span class="font-bold text-slate-900">British Standard BS 5534</span>
+            </div>
+          </div>
+
+          <div class="pt-2">
+            <a href="#get-quote"
+              onclick="document.getElementById('projectModal').classList.add('hidden'); document.body.style.overflow='';"
+              class="btn-primary w-full py-3 rounded-xl font-bold text-xs text-center flex items-center justify-center gap-2">
+              <i data-lucide="calculator" class="w-4 h-4"></i>
+              <span>Request Quote for Similar Project</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Custom Main JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
